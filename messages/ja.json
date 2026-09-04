@@ -588,72 +588,104 @@
     "back": "ホームに戻る"
   },
   "legal": {
-    "back": "← Back to Home",
+    "back": "← ホームに戻る",
     "privacy": {
-      "title": "Privacy Policy",
-      "description": "How UniversePulse collects and uses your data.",
-      "updated": "Last updated: September 4, 2026",
-      "contact": "If you have questions, please contact us at",
+      "title": "プライバシーポリシー",
+      "description": "UniversePulse のデータ収集と利用方法について。",
+      "updated": "最終更新日：2026年9月4日",
+      "contact": "このプライバシーポリシーについてのご質問は、までお問い合わせください。",
       "sections": [
         {
-          "heading": "Privacy Policy",
-          "content": "UniversePulse does not collect, store, or sell any personal data. All calculations happen client-side in your browser."
+          "heading": "1. 収集する情報",
+          "content": "UniversePulse は個人データを収集、保存、または販売しません。追跡用のクッキーは使用せず、ユーザーアカウントも管理していません。私たちが処理する唯一のデータは、あなたが自発的に入力する生年月日で、これは完全にブラウザ内で処理され、サーバーには一切送信されません。"
         },
         {
-          "heading": "Google Analytics",
-          "content": "We use Google Analytics to understand visitor interactions. Google's privacy policy applies: https://policies.google.com/privacy"
+          "heading": "2. 情報の使用方法",
+          "content": "個人データを収集しないため、あなたの情報を使用または処理することはありません。入力した生年月日は、ブラウザ内で個人的な統計を計算するためにローカルで使用され、第三者には送信されません。"
         },
         {
-          "heading": "Data Security",
-          "content": "Since we do not collect personal data, there is no personal data to secure. All calculations happen client-side."
+          "heading": "3. Google Analytics",
+          "content": "訪問者とサイトとのインタラクションを理解するために Google Analytics（gtag.js）を使用しています。Google Analytics は、標準的なインターネットログ情報と訪問者行動情報を匿名の集計形式で収集します。個人を特定するものではありません。Google のプライバシーポリシーが、アナリティクスサービスによって収集されるデータに適用されます。"
         },
         {
-          "heading": "Contact",
-          "content": "If you have questions about this Privacy Policy, contact us at support@universepulse.net."
+          "heading": "4. データセキュリティ",
+          "content": "個人データを収集しないため、保護すべき個人情報はありません。すべての計算はブラウザ内でクライアントサイドで行われます。HTTPS を使用して、ブラウザとサーバー間の接続を保護しています。"
+        },
+        {
+          "heading": "5. サードパーティーサービス",
+          "content": "サイト分析のために Google Analytics を使用しています。当サイトを使用することで、あなたは Google Analytics のプライバシーポリシー（https://policies.google.com/privacy）に従った情報の収集と利用に同意したものとみなされます。"
+        },
+        {
+          "heading": "6. 子供のプライバシー",
+          "content": "UniversePulse は13歳未満の子供を対象としていません。13歳未満の子供から個人情報を意図的に収集することはありません。保護者の方で、子供が個人情報を提供したと思われる場合はお問い合わせください。"
+        },
+        {
+          "heading": "7. ポリシーの変更",
+          "content": "このプライバシーポリシーは随時更新される場合があります。変更については、このページに新しいプライバシーポリシーを投稿し、「最終更新日」を更新することで通知します。"
+        },
+        {
+          "heading": "8. お問い合わせ",
+          "content": "このプライバシーポリシーについてのご質問は、support@universepulse.net までお問い合わせください。"
         }
       ]
     },
     "terms": {
-      "title": "Terms of Service",
-      "description": "Terms for using UniversePulse.",
-      "updated": "Last updated: September 4, 2026",
-      "contact": "If you have questions, please contact us at",
+      "title": "利用規約",
+      "description": "UniversePulse の利用条件。",
+      "updated": "最終更新日：2026年9月4日",
+      "contact": "これらの規約についてのご質問は、までお問い合わせください。",
       "sections": [
         {
-          "heading": "Service Disclaimer",
-          "content": "UniversePulse provides real-time data estimates for educational purposes. All values are mathematical approximations and should not be used for scientific or professional decisions."
+          "heading": "1. 規約の受諾",
+          "content": "UniversePulse にアクセスし、使用することで、あなたは本利用規約に拘束されることに同意したものとみなされます。これらの規約に同意しない場合は、本サービスを使用しないでください。"
         },
         {
-          "heading": "Data Accuracy",
-          "content": "Data is derived from annual averages converted to per-second rates. We make no warranties regarding accuracy, completeness, or timeliness."
+          "heading": "2. サービスの説明",
+          "content": "UniversePulse は、国連経済社会局（UN DESA）、国際エネルギー機関（IEA）、BP、FAO などの権威ある出所の年間平均に基づいたリアルタイムの全球データ見積りを提供します。表示されるすべての値は、教育および情報提供を目的とした数学的な近似値であり、正確なリアルタイム測定値を表すものではありません。"
         },
         {
-          "heading": "Limitation of Liability",
-          "content": "UniversePulse is not liable for any damages arising from your use of the service. Data is for educational purposes only."
+          "heading": "3. データ正確性の免責",
+          "content": "UniversePulse で提示されるデータは、年間平均率を1秒あたりの見積りに変換したものです。権威ある出所を使用していますが、すべての値は近似値です。UniversePulse はデータの正確性、完全性、または時宜性についていかなる保証もしません。ユーザーは、一次出所を確認せずに特定の目的でデータを依存してはなりません。"
         },
         {
-          "heading": "Contact",
-          "content": "If you have questions about these Terms, contact us at support@universepulse.net."
+          "heading": "4. 知的財産",
+          "content": "テキスト、グラフィック、ロゴ、デザイン要素を含む UniversePulse のすべてのコンテンツは、UniversePulse またはそのライセンス提供者の財産であり、著作権およびその他の知的財産法によって保護されています。"
+        },
+        {
+          "heading": "5. ユーザーの行動",
+          "content": "UniversePulse を合法的な目的でのみ使用することに同意します。ソーシャルメディアや他のプラットフォームで当コンテンツへのリンクを共有することができます。明示的な許可なく、転売、再掲載、または商業目的での使用はできません。"
+        },
+        {
+          "heading": "6. 責任の制限",
+          "content": "UniversePulse は、本サービスの使用または使用不能に起因するいかなる間接的、付随的、特別、結果的、または懲罰的損害についても責任を負いません。提供されるデータは教育目的のみであり、科学的、金融的、またはその他の専門的な決定に使用してはなりません。"
+        },
+        {
+          "heading": "7. 規約の変更",
+          "content": "当社はいつでも本規約を変更する権利を留保します。変更後に本サービスを引き続き使用することは、新しい規約を受け入れたものとみなされます。"
+        },
+        {
+          "heading": "8. 準拠法",
+          "content": "本規約は、法衝突の原則に関係なく、適用される法に準拠して解釈されるものとします。"
         }
       ]
     },
     "about": {
-      "title": "About UniversePulse",
-      "description": "About our project.",
-      "intro": "UniversePulse is a real-time global data dashboard. We make complex global statistics accessible, beautiful, and personally meaningful.",
-      "mission": "Our mission is to help every person understand their place in the global system — as an active participant, not a passive observer.",
-      "data": "All data comes from authoritative sources including UN DESA, IEA, BP, FAO, and the Global Carbon Project. Values are estimates for educational display.",
-      "team": "UniversePulse is an independent project built with Next.js, TypeScript, and Tailwind CSS.",
-      "contact": "We would love to hear from you. Reach us at"
+      "title": "UniversePulse について",
+      "description": "グローバルデータをパーソナライズし、アクセス可能にするという使命。",
+      "intro": "UniversePulse は、抽象的なマクロレベルの統計データを深く個人的で感情的に共鳴する体験に変換するリアルタイムの全球データダッシュボードです。グローバル人口、資源消費、環境変化を理解することは、すべての個人にとってアクセス可能で、美しく、意味のあるものであるべきだと私たちは信じています。",
+      "mission": "私たちの使命は、地球のすべての人が自分自身のグローバルシステムにおける位置を理解する手助けをすることです——受動的な観察者ではなく、人類と私たちの惑星の継続的な物語における積極的な参加者として。生年月日を入力すると、グローバル変化の背後にある数字があなたの数字でもあることに気づきます。",
+      "data": "UniversePulse のすべてのデータは、国連経済社会局（UN DESA）、国際エネルギー機関（IEA）、BP 統計レビュー、FAO、グローバルカーボンプロジェクトなどの権威ある年間出所から来ています。年間合計は数学的モデルを使用して1秒あたりの平均率に変換されます。これらは教育表示のための見積りであり、正確な測定値ではありません。",
+      "team": "UniversePulse は、Next.js、TypeScript、Tailwind CSS を使用して構築された独立したプロジェクトです。私たちはデータ可視化、気候意識、そして複雑な全球統計を誰もがアクセス可能にすることに情熱を持つ小さなチームです。",
+      "contact": "あなたからの連絡をお待ちしています。連絡先："
     },
     "contact": {
-      "title": "Contact Us",
-      "description": "Get in touch.",
-      "intro": "Have a question or feedback? Email us at support@universepulse.net.",
-      "methods": "We respond to all emails within 48 hours on business days.",
-      "email": "Email",
-      "response": "Response Time",
-      "responseTime": "We aim to respond within 48 hours during business days."
+      "title": "お問い合わせ",
+      "description": "UniversePulse チームにご連絡ください。",
+      "intro": "ご質問、ご提案、フィードバックがありますか？お闻かせください。最適な連絡方法はメールです。",
+      "methods": "現在、営業日中にすべてのメールに48時間以内に返信しています。緊急の場合は件名に\"緊急\"と記載してください。",
+      "email": "メール",
+      "response": "返信時間",
+      "responseTime": "営業日（月～金、祝日除く）中にすべてのお問い合わせに48時間以内に対応することを目指しています。"
     }
   }
 }

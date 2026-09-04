@@ -591,72 +591,104 @@
     "back": "Volver al inicio"
   },
   "legal": {
-    "back": "← Back to Home",
+    "back": "← Volver al Inicio",
     "privacy": {
-      "title": "Privacy Policy",
-      "description": "How UniversePulse collects and uses your data.",
-      "updated": "Last updated: September 4, 2026",
-      "contact": "If you have questions, please contact us at",
+      "title": "Política de Privacidad",
+      "description": "Cómo UniversePulse recopila y usa tus datos.",
+      "updated": "Última actualización: 4 de septiembre de 2026",
+      "contact": "Si tienes preguntas sobre esta Política de Privacidad, contáctanos en",
       "sections": [
         {
-          "heading": "Privacy Policy",
-          "content": "UniversePulse does not collect, store, or sell any personal data. All calculations happen client-side in your browser."
+          "heading": "1. Información que Recopilamos",
+          "content": "UniversePulse no recopila, almacena ni vende ningún dato personal. No utilizamos cookies de seguimiento ni mantenemos cuentas de usuario. El único dato que procesamos es la fecha de nacimiento que ingresas voluntariamente en la calculadora de cumpleaños, la cual se procesa completamente en tu navegador y nunca se transmite a nuestros servidores."
         },
         {
-          "heading": "Google Analytics",
-          "content": "We use Google Analytics to understand visitor interactions. Google's privacy policy applies: https://policies.google.com/privacy"
+          "heading": "2. Cómo Usamos la Información",
+          "content": "Dado que no recopilamos datos personales, no usamos ni procesamos ninguna información sobre ti. La fecha de nacimiento que ingresas se usa localmente en tu navegador para calcular estadísticas personales. Estos datos no se envían a ningún tercero."
         },
         {
-          "heading": "Data Security",
-          "content": "Since we do not collect personal data, there is no personal data to secure. All calculations happen client-side."
+          "heading": "3. Google Analytics",
+          "content": "Utilizamos Google Analytics (gtag.js) para comprender cómo los visitantes interactúan con nuestro sitio. Google Analytics recopila información estándar de registros de internet y comportamiento de visitantes de forma anónima y agregada. No identifica a usuarios individuales. La política de privacidad de Google se aplica a los datos recopilados por sus servicios de análisis."
         },
         {
-          "heading": "Contact",
-          "content": "If you have questions about this Privacy Policy, contact us at support@universepulse.net."
+          "heading": "4. Seguridad de los Datos",
+          "content": "Dado que no recopilamos datos personales, no hay datos personales que proteger. Todos los cálculos se realizan en el lado del cliente en tu navegador. Utilizamos HTTPS para proteger la conexión entre tu navegador y nuestros servidores."
+        },
+        {
+          "heading": "5. Servicios de Terceros",
+          "content": "Utilizamos Google Analytics para análisis del sitio. Al usar nuestro sitio, consientes la recopilación y uso de información por Google Analytics según se describe en su política de privacidad: https://policies.google.com/privacy"
+        },
+        {
+          "heading": "6. Privacidad de Menores",
+          "content": "UniversePulse no está dirigido a niños menores de 13 años. No recopilamos deliberadamente información personal de menores de 13 años. Si eres padre y crees que tu hijo nos ha proporcionado información personal, contáctanos."
+        },
+        {
+          "heading": "7. Cambios en esta Política",
+          "content": "Podemos actualizar esta Política de Privacidad de vez en cuando. Te notificaremos sobre cualquier cambio publicando la nueva Política de Privacidad en esta página y actualizando la fecha de \"Última actualización\"."
+        },
+        {
+          "heading": "8. Contáctanos",
+          "content": "Si tienes alguna pregunta sobre esta Política de Privacidad, contáctanos en support@universepulse.net."
         }
       ]
     },
     "terms": {
-      "title": "Terms of Service",
-      "description": "Terms for using UniversePulse.",
-      "updated": "Last updated: September 4, 2026",
-      "contact": "If you have questions, please contact us at",
+      "title": "Términos de Servicio",
+      "description": "Términos y condiciones para usar UniversePulse.",
+      "updated": "Última actualización: 4 de septiembre de 2026",
+      "contact": "Si tienes preguntas sobre estos Términos, contáctanos en",
       "sections": [
         {
-          "heading": "Service Disclaimer",
-          "content": "UniversePulse provides real-time data estimates for educational purposes. All values are mathematical approximations and should not be used for scientific or professional decisions."
+          "heading": "1. Aceptación de los Términos",
+          "content": "Al acceder y usar UniversePulse, aceptas y aceptas estar sujeto a estos Términos de Servicio. Si no estás de acuerdo con estos términos, por favor no uses nuestro servicio."
         },
         {
-          "heading": "Data Accuracy",
-          "content": "Data is derived from annual averages converted to per-second rates. We make no warranties regarding accuracy, completeness, or timeliness."
+          "heading": "2. Descripción del Servicio",
+          "content": "UniversePulse proporciona estimaciones globales en tiempo real basadas en promedios anuales de fuentes autorizadas como UN DESA, IEA, BP y FAO. Todos los valores mostrados son aproximaciones matemáticas con fines educativos e informativos, y no representan mediciones precisas en tiempo real."
         },
         {
-          "heading": "Limitation of Liability",
-          "content": "UniversePulse is not liable for any damages arising from your use of the service. Data is for educational purposes only."
+          "heading": "3. Descargo de Responsabilidad de Precisión de Datos",
+          "content": "Los datos presentados en UniversePulse se derivan de tasas promedio anuales convertidas a estimaciones por segundo. Aunque usamos fuentes autorizadas, todos los valores son aproximaciones. UniversePulse no otorga garantías sobre la precisión, integridad u oportunidad de los datos. Los usuarios no deben depender de los datos para ningún propósito específico sin verificar contra las fuentes primarias."
         },
         {
-          "heading": "Contact",
-          "content": "If you have questions about these Terms, contact us at support@universepulse.net."
+          "heading": "4. Propiedad Intelectual",
+          "content": "Todo el contenido en UniversePulse, incluyendo texto, gráficos, logotipos y elementos de diseño, es propiedad de UniversePulse o sus licenciadores y está protegido por leyes de derechos de autor y otras leyes de propiedad intelectual."
+        },
+        {
+          "heading": "5. Conducta del Usuario",
+          "content": "Aceptas usar UniversePulse solo para propósitos legales. Puedes compartir enlaces a nuestro contenido en redes sociales y otras plataformas. No puedes revender, republicar o usar nuestro contenido con fines comerciales sin permiso explícito."
+        },
+        {
+          "heading": "6. Limitación de Responsabilidad",
+          "content": "UniversePulse no será responsable por ningún daño indirecto, incidental, especial, consequencial o punitivo que surja de tu uso o incapacidad de usar el servicio. Los datos proporcionados son solo para fines educativos y no deben usarse para decisiones científicas, financieras u otras profesionales."
+        },
+        {
+          "heading": "7. Cambios en los Términos",
+          "content": "Nos reservamos el derecho de modificar estos Términos en cualquier momento. El uso continuado del servicio después de los cambios constituye aceptación de los nuevos Términos."
+        },
+        {
+          "heading": "8. Ley Aplicable",
+          "content": "Estos Términos se regirán e interpretarán de acuerdo con la ley aplicable, sin considerar principios de conflicto de leyes."
         }
       ]
     },
     "about": {
-      "title": "About UniversePulse",
-      "description": "About our project.",
-      "intro": "UniversePulse is a real-time global data dashboard. We make complex global statistics accessible, beautiful, and personally meaningful.",
-      "mission": "Our mission is to help every person understand their place in the global system — as an active participant, not a passive observer.",
-      "data": "All data comes from authoritative sources including UN DESA, IEA, BP, FAO, and the Global Carbon Project. Values are estimates for educational display.",
-      "team": "UniversePulse is an independent project built with Next.js, TypeScript, and Tailwind CSS.",
-      "contact": "We would love to hear from you. Reach us at"
+      "title": "Acerca de UniversePulse",
+      "description": "Nuestra misión de hacer los datos globales personales y accesibles.",
+      "intro": "UniversePulse es un panel de datos globales en tiempo real que transforma estadísticas macroabstractas en experiencias profundamente personales y emocionalmente significativas. Creemos que entender la población global, el consumo de recursos y el cambio ambiental debe ser accesible, hermoso y significativo para cada individuo.",
+      "mission": "Nuestra misión es ayudar a cada persona en la Tierra a entender su lugar en el sistema global — no como un observador pasivo, sino como un participante activo en la historia continua de la humanidad y nuestro planeta. Cuando ingresas tu fecha de nacimiento, descubres que los números detrás del cambio global también son tus números.",
+      "data": "Todos los datos en UniversePulse provienen de fuentes anuales autorizadas incluyendo el Departamento de Asuntos Económicos y Sociales de la ONU (UN DESA), la Agencia Internacional de Energía (IEA), el Resumen Estadístico de BP, la FAO y el Proyecto Carbono Global. Los totales anuales se convierten a tasas promedio por segundo usando modelos matemáticos. Estas son estimaciones para exhibición educativa, no mediciones precisas.",
+      "team": "UniversePulse es un proyecto independiente construido con Next.js, TypeScript y Tailwind CSS. Somos un pequeño equipo apasionado por la visualización de datos, la conciencia climática y hacer que las estadísticas globales complejas sean accesibles para todos.",
+      "contact": "Nos encantaría saber de ti. Contáctanos en"
     },
     "contact": {
-      "title": "Contact Us",
-      "description": "Get in touch.",
-      "intro": "Have a question or feedback? Email us at support@universepulse.net.",
-      "methods": "We respond to all emails within 48 hours on business days.",
-      "email": "Email",
-      "response": "Response Time",
-      "responseTime": "We aim to respond within 48 hours during business days."
+      "title": "Contáctanos",
+      "description": "Ponte en contacto con el equipo de UniversePulse.",
+      "intro": "¿Tienes una pregunta, sugerencia o retroalimentación? Nos encantaría saber de ti. La mejor manera de contactarnos es por correo electrónico.",
+      "methods": "Actualmente respondemos todos los correos electrónicos dentro de las 48 horas en días laborables. Para asuntos urgentes, por favor menciona \"URGENTE\" en la línea de asunto.",
+      "email": "Correo Electrónico",
+      "response": "Tiempo de Respuesta",
+      "responseTime": "Nos esforzamos por responder a todas las consultas dentro de las 48 horas durante días laborables (lunes a viernes, excluyendo festivos)."
     }
   }
 }

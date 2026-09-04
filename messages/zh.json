@@ -591,72 +591,104 @@
     "back": "返回首页"
   },
   "legal": {
-    "back": "← Back to Home",
+    "back": "← 返回首页",
     "privacy": {
-      "title": "Privacy Policy",
-      "description": "How UniversePulse collects and uses your data.",
-      "updated": "Last updated: September 4, 2026",
-      "contact": "If you have questions, please contact us at",
+      "title": "隐私政策",
+      "description": "UniversePulse 如何收集和使用您的数据。",
+      "updated": "最后更新：2026年9月4日",
+      "contact": "如果您对本隐私政策有任何疑问，请通过以下方式联系我们：",
       "sections": [
         {
-          "heading": "Privacy Policy",
-          "content": "UniversePulse does not collect, store, or sell any personal data. All calculations happen client-side in your browser."
+          "heading": "1. 我们收集的信息",
+          "content": "UniversePulse 不收集、存储或出售任何个人数据。我们不使用跟踪 Cookie，也不维护用户账户。我们唯一处理的数据是您在生日计算器中自愿输入的出生日期，该数据完全在您的浏览器中处理，永远不会传输到我们的服务器。"
         },
         {
-          "heading": "Google Analytics",
-          "content": "We use Google Analytics to understand visitor interactions. Google's privacy policy applies: https://policies.google.com/privacy"
+          "heading": "2. 我们如何使用信息",
+          "content": "由于我们不收集个人数据，因此不会使用或处理任何关于您的信息。您输入的出生日期仅在您的浏览器中本地使用，用于计算个人统计数据。这些数据不会发送给任何第三方。"
         },
         {
-          "heading": "Data Security",
-          "content": "Since we do not collect personal data, there is no personal data to secure. All calculations happen client-side."
+          "heading": "3. Google Analytics",
+          "content": "我们使用 Google Analytics（gtag.js）来了解访客与网站的互动情况。Google Analytics 以匿名聚合形式收集标准的互联网日志信息和访客行为信息，不会识别个人用户。Google 的隐私政策适用于其分析服务收集的数据。"
         },
         {
-          "heading": "Contact",
-          "content": "If you have questions about this Privacy Policy, contact us at support@universepulse.net."
+          "heading": "4. 数据安全",
+          "content": "由于我们不收集个人数据，因此没有需要保护的个人数据。所有计算都在您的浏览器客户端完成。我们使用 HTTPS 来保护您的浏览器与我们的服务器之间的连接。"
+        },
+        {
+          "heading": "5. 第三方服务",
+          "content": "我们使用 Google Analytics 进行站点分析。使用我们的网站即表示您同意 Google Analytics 按照其隐私政策收集和发布信息：https://policies.google.com/privacy"
+        },
+        {
+          "heading": "6. 儿童隐私",
+          "content": "UniversePulse 不适合13岁以下儿童使用。我们不会故意收集13岁以下儿童的个人信息。如果您是家长，认为您的孩子向我们提供了个人信息，请联系我们。"
+        },
+        {
+          "heading": "7. 政策更新",
+          "content": "我们可能会不时更新本隐私政策。我们将通过在本页发布新隐私政策并更新\"最后更新\"日期来通知您任何变更。"
+        },
+        {
+          "heading": "8. 联系我们",
+          "content": "如果您对本隐私政策有任何疑问，请通过 support@universepulse.net 联系我们。"
         }
       ]
     },
     "terms": {
-      "title": "Terms of Service",
-      "description": "Terms for using UniversePulse.",
-      "updated": "Last updated: September 4, 2026",
-      "contact": "If you have questions, please contact us at",
+      "title": "服务条款",
+      "description": "使用 UniversePulse 的条款和条件。",
+      "updated": "最后更新：2026年9月4日",
+      "contact": "如果您对这些条款有任何疑问，请通过以下方式联系我们：",
       "sections": [
         {
-          "heading": "Service Disclaimer",
-          "content": "UniversePulse provides real-time data estimates for educational purposes. All values are mathematical approximations and should not be used for scientific or professional decisions."
+          "heading": "1. 条款接受",
+          "content": "通过访问和使用 UniversePulse，您接受并同意受本服务条款的约束。如果您不同意这些条款，请勿使用我们的服务。"
         },
         {
-          "heading": "Data Accuracy",
-          "content": "Data is derived from annual averages converted to per-second rates. We make no warranties regarding accuracy, completeness, or timeliness."
+          "heading": "2. 服务描述",
+          "content": "UniversePulse 基于联合国经社部（UN DESA）、国际能源署（IEA）、BP 和 FAO 等权威来源的年度平均值，提供实时全球数据估算。所有显示值均为用于教育和信息目的的数学近似值，不代表精确的实时测量数据。"
         },
         {
-          "heading": "Limitation of Liability",
-          "content": "UniversePulse is not liable for any damages arising from your use of the service. Data is for educational purposes only."
+          "heading": "3. 数据准确性免责声明",
+          "content": "UniversePulse 上展示的数据源自将年度平均率转换为每秒估算值的计算。虽然我们使用了权威来源，但所有数值均为近似值。UniversePulse 不对数据的准确性、完整性或及时性做出任何保证。用户不应在未核对原始来源的情况下依赖数据用于任何特定目的。"
         },
         {
-          "heading": "Contact",
-          "content": "If you have questions about these Terms, contact us at support@universepulse.net."
+          "heading": "4. 知识产权",
+          "content": "UniversePulse 上的所有内容，包括文本、图形、徽标和设计元素，均为 UniversePulse 或其许可方的财产，受版权和其他知识产权法律保护。"
+        },
+        {
+          "heading": "5. 用户行为",
+          "content": "您同意仅将 UniversePulse 用于合法目的。您可以在社交媒体和其他平台上分享我们内容的链接。未经明确许可，您不得转售、重印或将我们的内容用于商业目的。"
+        },
+        {
+          "heading": "6. 责任限制",
+          "content": "对于因您使用或无法使用本服务而产生的任何间接、附带、特殊、后果性或惩罚性损害，UniversePulse 不承担责任。所提供数据仅供教育用途，不得用于科学、财务或其他专业决策。"
+        },
+        {
+          "heading": "7. 条款修改",
+          "content": "我们保留随时修改本条款的权利。变更后继续使用本服务即视为接受新条款。"
+        },
+        {
+          "heading": "8. 适用法律",
+          "content": "本条款应受适用法律管辖并按其解释，不考虑法律冲突原则。"
         }
       ]
     },
     "about": {
-      "title": "About UniversePulse",
-      "description": "About our project.",
-      "intro": "UniversePulse is a real-time global data dashboard. We make complex global statistics accessible, beautiful, and personally meaningful.",
-      "mission": "Our mission is to help every person understand their place in the global system — as an active participant, not a passive observer.",
-      "data": "All data comes from authoritative sources including UN DESA, IEA, BP, FAO, and the Global Carbon Project. Values are estimates for educational display.",
-      "team": "UniversePulse is an independent project built with Next.js, TypeScript, and Tailwind CSS.",
-      "contact": "We would love to hear from you. Reach us at"
+      "title": "关于 UniversePulse",
+      "description": "我们的使命是让全球数据变得个性化且易于理解。",
+      "intro": "UniversePulse 是一个实时全球数据仪表盘，将抽象的宏观统计数据转化为个性化、富有情感共鸣的体验。我们相信，了解全球人口、资源消耗和环境变化应该是每个人都能接触到的、美好的且有意义的事情。",
+      "mission": "我们的使命是帮助地球上的每个人理解自己在全球系统中的位置——不是作为被动的观察者，而是作为人类和地球 ongoing 故事中的积极参与者。当您输入出生日期时，您会发现全球变化背后的数字也是您的数字。",
+      "data": "UniversePulse 上的所有数据均来自权威年度来源，包括联合国经济和社会事务部（UN DESA）、国际能源署（IEA）、BP 统计评论、FAO 和全球碳项目。年度总量通过数学模型转换为每秒平均率。这些是用于教育展示的估算值，而非精确测量数据。",
+      "team": "UniversePulse 是一个独立项目，使用 Next.js、TypeScript 和 Tailwind CSS 构建。我们是一个热爱数据可视化、气候变化意识并致力于让复杂的全球统计数据触手可及的小型团队。",
+      "contact": "我们很乐意倾听您的声音。请联系："
     },
     "contact": {
-      "title": "Contact Us",
-      "description": "Get in touch.",
-      "intro": "Have a question or feedback? Email us at support@universepulse.net.",
-      "methods": "We respond to all emails within 48 hours on business days.",
-      "email": "Email",
-      "response": "Response Time",
-      "responseTime": "We aim to respond within 48 hours during business days."
+      "title": "联系我们",
+      "description": "与 UniversePulse 团队取得联系。",
+      "intro": "有问题、建议或反馈？我们很乐意听到您的声音。最佳联系方式是通过电子邮件。",
+      "methods": "目前我们在工作日 48 小时内回复所有邮件。如有紧急事项，请在主题行中注明\"紧急\"。",
+      "email": "电子邮件",
+      "response": "回复时间",
+      "responseTime": "我们力求在工作日（周一至周五，节假日除外）的 48 小时内回复所有咨询。"
     }
   }
 }
