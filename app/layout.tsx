@@ -67,6 +67,16 @@ export default async function RootLayout({ children }: { children: React.ReactNo
   return (
     <html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'}>
       <head>
+        {/* Google Analytics */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-EMJHSPLEPJ"></script>
+        <script dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-EMJHSPLEPJ');
+          `.trim()
+        }} />
         {/* PWA Meta Tags */}
         <meta name="theme-color" content="#0a0e1a" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -76,6 +86,8 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         <link rel="manifest" href="/manifest.json" />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="icon" href="/icon.svg" type="image/svg+xml" sizes="any" />
+        <link rel="icon" href="/icons/favicon-16x16.png" sizes="16x16" type="image/png" />
+        <link rel="icon" href="/icons/favicon-32x32.png" sizes="32x32" type="image/png" />
         <link rel="apple-touch-icon" href="/icons/icon-192.png" />
         {/* JSON-LD Structured Data */}
         <script
