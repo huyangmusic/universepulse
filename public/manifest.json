@@ -1,0 +1,28 @@
+{
+  "name": "UniversePulse — Global Real-Time Dashboard",
+  "short_name": "UniversePulse",
+  "description": "Watch global population, energy consumption, and resource usage tick in real-time.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0e1a",
+  "theme_color": "#4dd9ff",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "science", "news"],
+  "lang": "en",
+  "dir": "ltr",
+  "display_override": ["standalone", "minimal-ui"]
+}

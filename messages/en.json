@@ -1,0 +1,593 @@
+{
+  "siteDescription": "UniversePulse is a real-time global data dashboard. Track population growth, CO₂ emissions, energy consumption, and resource usage from the moment you were born.",
+  "header": {
+    "title": "UniversePulse",
+    "subtitle": "Global Real-Time Data Dashboard",
+    "liveLabel": "LIVE",
+    "utc": "UTC",
+    "nav": {
+      "born": "Born Since",
+      "co2": "CO₂ Since",
+      "earth": "Earth Distance",
+      "sea": "Sea Level"
+    }
+  },
+  "dashboard": {
+    "intro": {
+      "title": "What's Your Universe?",
+      "desc1": "Every person on Earth has a unique relationship with these numbers.",
+      "desc2": "Enter your birth date to see what Earth looked like when you arrived — and how much has changed since.",
+      "cta": "When Were You Born?"
+    },
+    "result": {
+      "label": "Your Universe",
+      "change": "Change",
+      "years": "years"
+    },
+    "picker": {
+      "title": "When Were You Born?",
+      "month": "Month",
+      "day": "Day",
+      "year": "Year",
+      "cancel": "Cancel"
+    },
+    "hero": {
+      "populationLabel": "Global Population",
+      "populationSub": "Living. Breathing. Changing every second.",
+      "populationDesc": "The number below is ticking right now — and it's been ticking since 1950.",
+      "ctaHint": "Enter your birth date to discover your personal universe"
+    },
+    "sharing": {
+      "subtitle": "Share this moment. Every number tells a story.",
+      "tryAgain": "Try With Different Date",
+      "share": "Share",
+      "shareText": "I've been alive for {years} years. See what Earth has experienced since then →",
+      "poster": "Generate Poster"
+    },
+    "months": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "back": "← Back to Dashboard",
+    "timeMachine": "Time Machine"
+  },
+  "bornSince": {
+    "hero": {
+      "title": "How Many People Have Been Born Since I Was Born?",
+      "description": "Every second, approximately 4.25 babies are born around the world. Since the moment you arrived, an entire civilization's worth of new lives have begun."
+    },
+    "cta": {
+      "title": "Discover Your Personal Birth Timeline",
+      "description": "Enter your birthdate to see how many people were born in your lifetime, how many have died, and how the world has changed around you.",
+      "button": "Start Your Journey"
+    },
+    "stats": {
+      "title": "Global Birth Statistics: A Living History",
+      "speed": {
+        "title": "The Speed of Human Birth",
+        "description": "According to the United Nations Department of Economic and Social Affairs (UN DESA), approximately 140 million babies are born every year worldwide. That translates to roughly 4.25 births per second, 255 births per minute, and 15,300 births per hour. The global population has grown from approximately 2.5 billion in 1950 to over 8.35 billion in 2026."
+      },
+      "growth": {
+        "title": "Population Growth Trends",
+        "description": "The peak of global population growth occurred in the 1960s at nearly 2.1% per year. Today's growth rate has slowed to approximately 0.9% annually, with projections suggesting the global population will peak around 10.4 billion in the 2080s."
+      }
+    },
+    "personal": {
+      "title": "Your Personal Connection to Global Population",
+      "description": "When you enter your birthdate on UniversePulse, you'll discover the number of people who have been born during your lifetime — a number that puts your existence into a fascinating global context. For most people, this number falls between 1 billion and 5 billion."
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "How many people are born each day?",
+          "a": "Approximately 380,000 people are born each day worldwide, according to UN DESA estimates."
+        },
+        {
+          "q": "When did the global population reach 8 billion?",
+          "a": "The United Nations declared that the global population reached 8 billion on November 15, 2022."
+        },
+        {
+          "q": "What is the world population in 2026?",
+          "a": "As of 2026, the world population is estimated to be approximately 8.35 billion people."
+        },
+        {
+          "q": "How does UniversePulse calculate births?",
+          "a": "UniversePulse uses a simple but accurate mathematical model based on authoritative data from UN DESA, the World Bank, and other demographic sources."
+        }
+      ]
+    },
+    "explore": {
+      "title": "Explore More on UniversePulse",
+      "co2": {
+        "title": "CO₂ Emissions Since I Was Born",
+        "desc": "Track the carbon footprint accumulated since your birth and see how it compares to global targets."
+      },
+      "earth": {
+        "title": "Earth Distance Since I Was Born",
+        "desc": "Discover how far our planet has traveled through the cosmos since you were born."
+      },
+      "sea": {
+        "title": "Sea Level Rise Since I Was Born",
+        "desc": "See how much sea level has risen during your lifetime and what it means for the future."
+      }
+    }
+  },
+  "co2Since": {
+    "hero": {
+      "title": "How Much CO₂ Have I Emitted Since I Was Born?",
+      "description": "Every second, humanity releases carbon dioxide into the atmosphere at an alarming rate. See the total CO₂ emissions that have occurred since the day you were born."
+    },
+    "cta": {
+      "title": "Calculate Your Carbon Lifetime",
+      "description": "Enter your birthdate to discover the total CO₂ emissions that have accumulated during your lifetime — a number that puts your existence into a planetary context.",
+      "button": "Start Your Journey"
+    },
+    "stats": {
+      "title": "Global CO₂ Emissions Facts",
+      "emissions": {
+        "title": "The Scale of Global Emissions",
+        "description": "Annual global CO₂ emissions from fossil fuels have exceeded 36 billion tonnes in recent years. This is approximately 4.7 tonnes per person per year on average, though emissions vary dramatically between developed and developing nations."
+      },
+      "targets": {
+        "title": "Climate Targets and Reality",
+        "description": "To limit global warming to 1.5°C above pre-industrial levels, the remaining carbon budget is estimated at around 250 gigatonnes of CO₂ — roughly 6 more years of current emissions. The Paris Agreement committed nations to drastically reduce emissions by 2030."
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "What is the main source of CO₂ emissions?",
+          "a": "Burning fossil fuels (coal, oil, and natural gas) for energy, transportation, and industry accounts for the vast majority of global CO₂ emissions."
+        },
+        {
+          "q": "How much CO₂ does the average person emit?",
+          "a": "The global average per capita CO₂ emission is approximately 4.7 tonnes per year, though this varies from under 1 tonne in some developing nations to over 15 tonnes in the most developed countries."
+        },
+        {
+          "q": "What is the carbon budget for 1.5°C?",
+          "a": "The remaining carbon budget to keep warming below 1.5°C is estimated at around 250 gigatonnes of CO₂ — roughly 6 more years at current emission rates."
+        },
+        {
+          "q": "How does UniversePulse calculate CO₂?",
+          "a": "UniversePulse uses a mathematical model based on authoritative data from the International Energy Agency (IEA) and the Global Carbon Project, applying the current global emission rate since your birthdate."
+        }
+      ]
+    },
+    "explore": {
+      "title": "Explore More on UniversePulse",
+      "born": {
+        "title": "Born Since I Was Born",
+        "desc": "Discover how many people have been born during your lifetime."
+      },
+      "earth": {
+        "title": "Earth Distance Since I Was Born",
+        "desc": "See how far our planet has traveled through space since you were born."
+      },
+      "sea": {
+        "title": "Sea Level Rise Since I Was Born",
+        "desc": "Track how much sea level has risen during your lifetime."
+      }
+    }
+  },
+  "earthDistance": {
+    "hero": {
+      "title": "How Far Has Earth Traveled Since I Was Born?",
+      "description": "Our planet is in constant motion — orbiting the Sun at 107,000 km/h, while the entire solar system travels through the Milky Way at 828,000 km/h. See the incredible cosmic distance covered since your birth."
+    },
+    "cta": {
+      "title": "Calculate Your Cosmic Journey",
+      "description": "Enter your birthdate to discover the total distance Earth has traveled through space during your lifetime — a number that puts your existence into a cosmic perspective.",
+      "button": "Start Your Journey"
+    },
+    "cosmos": {
+      "title": "Earth's Cosmic Journey",
+      "description": "Earth orbits the Sun at an average speed of 107,000 km/h, completing one orbit every 365.25 days. Meanwhile, our entire solar system travels around the center of the Milky Way galaxy at approximately 828,000 km/h. Since you were born, Earth has traveled a distance that is almost incomprehensible."
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "How fast does Earth orbit the Sun?",
+          "a": "Earth travels at approximately 107,000 km/h (67,000 mph) in its orbit around the Sun."
+        },
+        {
+          "q": "How far does Earth travel in one year?",
+          "a": "Earth travels approximately 940 million kilometers (584 million miles) in one complete orbit around the Sun."
+        },
+        {
+          "q": "Is Earth's speed constant?",
+          "a": "Earth's orbital speed varies slightly throughout the year due to the elliptical shape of its orbit — fastest at perihelion (closest to Sun) and slowest at aphelion (farthest from Sun)."
+        },
+        {
+          "q": "How does UniversePulse calculate this?",
+          "a": "UniversePulse uses a precise mathematical model based on Earth's orbital parameters from NASA, calculating the total distance traveled since your birthdate."
+        }
+      ]
+    },
+    "explore": {
+      "title": "Explore More on UniversePulse",
+      "born": {
+        "title": "Born Since I Was Born",
+        "desc": "Discover how many people have been born during your lifetime."
+      },
+      "co2": {
+        "title": "CO₂ Since I Was Born",
+        "desc": "Track the carbon footprint accumulated since your birth."
+      },
+      "sea": {
+        "title": "Sea Level Rise Since I Was Born",
+        "desc": "Track how much sea level has risen during your lifetime."
+      }
+    }
+  },
+  "seaLevel": {
+    "hero": {
+      "title": "How Much Has Sea Level Risen Since I Was Born?",
+      "description": "Global sea levels have been rising steadily due to thermal expansion of warming oceans and melting ice sheets. See how much the seas have risen during your lifetime."
+    },
+    "cta": {
+      "title": "Track Your Lifetime of Sea Level Rise",
+      "description": "Enter your birthdate to discover how much sea level has risen since you were born — a measure of the warming your life has witnessed.",
+      "button": "Start Your Journey"
+    },
+    "science": {
+      "title": "The Science of Sea Level Rise",
+      "causes": {
+        "title": "Causes of Sea Level Rise",
+        "description": "Sea level rise is driven primarily by thermal expansion of warming ocean water and the melting of land-based ice (glaciers and ice sheets). Since 1993, global sea level has risen at an accelerating rate of approximately 3.6 mm per year."
+      },
+      "projections": {
+        "title": "Future Projections",
+        "description": "The IPCC projects sea levels could rise by 0.3 to 1.1 meters by 2100, depending on emissions scenarios. Even the most optimistic scenarios imply continued rise for centuries due to the thermal inertia of the oceans."
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "How much has sea level risen since 1900?",
+          "a": "Global average sea level has risen by approximately 21-24 cm (8-10 inches) since 1900, with the rate accelerating in recent decades."
+        },
+        {
+          "q": "What is the current rate of sea level rise?",
+          "a": "The current rate is approximately 3.6 mm per year, and it is accelerating. In some regions, the rate is even higher due to local factors."
+        },
+        {
+          "q": "How does sea level rise affect coastal cities?",
+          "a": "Rising seas threaten coastal communities through increased flooding, storm surge intensity, saltwater intrusion into freshwater, and erosion of shorelines. Over 1 billion people live in low-lying coastal zones."
+        },
+        {
+          "q": "How does UniversePulse calculate sea level rise?",
+          "a": "UniversePulse uses a mathematical model based on IPCC data and satellite observations, estimating cumulative sea level rise since your birthdate."
+        }
+      ]
+    },
+    "explore": {
+      "title": "Explore More on UniversePulse",
+      "born": {
+        "title": "Born Since I Was Born",
+        "desc": "Discover how many people have been born during your lifetime."
+      },
+      "co2": {
+        "title": "CO₂ Since I Was Born",
+        "desc": "Track the carbon footprint accumulated since your birth."
+      },
+      "earth": {
+        "title": "Earth Distance Since I Was Born",
+        "desc": "See how far our planet has traveled through space since you were born."
+      }
+    }
+  },
+  "livingMoment": {
+    "title": "Earth Never Sleeps",
+    "subtitle": "Watch the world change in real-time. Every second, something begins — and something ends.",
+    "milestone": {
+      "title": "Next Population Milestone",
+      "peopleAway": "people away",
+      "daysToBillion": "days to reach the next billion"
+    },
+    "stats": {
+      "population": "Global Population",
+      "births": "Today's Births",
+      "deaths": "Today's Deaths",
+      "netGrowth": "Net Growth Today"
+    },
+    "moments": {
+      "birth": {
+        "title": "A New Life",
+        "subtitle": "Every 0.24 seconds",
+        "comparison": "A new life begins — someone will grow up to change the world"
+      },
+      "death": {
+        "title": "A Life Ends",
+        "subtitle": "Every 0.51 seconds",
+        "comparison": "A story ends — someone misses them today"
+      },
+      "net": {
+        "title": "Net Growth",
+        "subtitle": "Every second, Earth gains",
+        "comparison": "Earth gains a neighborhood every second"
+      },
+      "oil": {
+        "title": "Oil Consumed",
+        "subtitle": "Per second",
+        "comparison": "tanker trucks per minute unloading"
+      },
+      "carbon": {
+        "title": "CO₂ Emitted",
+        "subtitle": "Per second",
+        "comparison": "car parks worth of emissions right now"
+      },
+      "water": {
+        "title": "Freshwater Used",
+        "subtitle": "Per second",
+        "comparison": "Olympic pools every second"
+      },
+      "email": {
+        "title": "Emails Sent",
+        "subtitle": "Per second",
+        "comparison": "A message of love, anger, or boredom — humanity's endless conversation"
+      },
+      "search": {
+        "title": "Search Queries",
+        "subtitle": "Per second",
+        "comparison": "Every second, someone searches how to for the third time today"
+      },
+      "flight": {
+        "title": "Flights in Air",
+        "subtitle": "At any given moment",
+        "comparison": "people airborne right now — all looking down at the same Earth"
+      },
+      "crypto": {
+        "title": "Crypto Transactions",
+        "subtitle": "Per second",
+        "comparison": "Value moving between strangers — trust written in code"
+      },
+      "deforestation": {
+        "title": "Forest Lost",
+        "subtitle": "Per second",
+        "comparison": "A football pitch of ancient forest — gone in the time it takes to blink"
+      }
+    },
+    "session": {
+      "title": "During Your Visit",
+      "visited": "You have been here",
+      "popGrowth": "people added to Earth",
+      "births": "births",
+      "oil": "barrels of oil",
+      "barrels": "bbl",
+      "emails": "emails sent",
+      "carbon": "tonnes CO₂",
+      "tonnes": "t",
+      "flights": "flights airborne"
+    }
+  },
+  "dataSources": {
+    "disclaimer": "All data is estimated from authoritative annual sources and converted to per-second rates. Values are approximations for educational display — not precise measurements. Data is based on UN DESA, IEA, BP, FAO, and other global sources as of 2026. See source details below.",
+    "expand": "View all data sources",
+    "collapse": "Hide data sources",
+    "footer": "Data accuracy disclaimer: UniversePulse uses annual average rates derived from UN, IEA, BP, FAO, and other international organizations. Real-time values are mathematical approximations.",
+    "sourceNames": {
+      "Global Population": "Global Population",
+      "Oil Consumption": "Oil Consumption",
+      "Coal Consumption": "Coal Consumption",
+      "CO₂ Emissions": "CO₂ Emissions",
+      "Natural Gas": "Natural Gas",
+      "Deforestation": "Deforestation",
+      "Freshwater": "Freshwater",
+      "Email Volume": "Email Volume",
+      "Search Queries": "Search Queries",
+      "Flights": "Flights",
+      "Crypto Transactions": "Crypto Transactions",
+      "Sea Level Rise": "Sea Level Rise"
+    },
+    "tier1": "Tier 1",
+    "tier2": "Tier 2",
+    "tier3": "Tier 3"
+  },
+  "timeMachine": {
+    "title": "Time Machine",
+    "subtitle": "Travel back to any year and see what Earth looked like — and what it meant for the world.",
+    "label": "Year",
+    "play": "Play",
+    "pause": "Pause",
+    "speed": "Speed",
+    "events": {
+      "1960": "World population reached 3 billion",
+      "1968": "Paul Ehrlich publishes \"The Population Bomb\"",
+      "1974": "World population reaches 4 billion",
+      "1980": "Global CO₂ emissions begin steady climb",
+      "1987": "World population reaches 5 billion — Day of Five Billion",
+      "1990": "First international climate conference (UNFCCC)",
+      "1993": "Satellite measurements of sea level rise begin",
+      "1999": "World population reaches 6 billion",
+      "2000": "Y2K passes without global catastrophe",
+      "2003": "Internet users surpass 600 million",
+      "2005": "Kyoto Protocol enters into force",
+      "2008": "Global financial crisis",
+      "2011": "World population reaches 7 billion",
+      "2012": "Smartphone sales surpass PC sales",
+      "2015": "Paris Agreement signed — 196 nations commit to climate action",
+      "2016": "Hottest year on record at the time",
+      "2019": "Global climate strikes mobilize millions",
+      "2022": "World population reaches 8 billion — UN declaration",
+      "2024": "El Niño drives record global temperatures",
+      "2050": "Projected: World population ~9.7 billion"
+    },
+    "slider": "Drag to travel through time",
+    "comparison": "Cumulative Since 1950",
+    "population": "Population",
+    "births": "Births",
+    "deaths": "Deaths",
+    "carbon": "Carbon",
+    "oil": "Oil",
+    "water": "Water",
+    "deforestation": "Deforestation",
+    "seaLevel": "Sea Level",
+    "popGrowth": "Population Growth",
+    "totalCO2": "Total CO₂ Emitted",
+    "totalOil": "Total Oil Consumed",
+    "emails": "Emails",
+    "searches": "Searches",
+    "flights": "Flights"
+  },
+  "narrative": {
+    "hero": {
+      "label": "Your Personal Universe",
+      "title": "What was your universe like?",
+      "desc": "You've been alive for {years} years, {days} days, and {hours} hours. That's a lifetime of numbers — each one connected to the pulse of 8 billion souls."
+    },
+    "tier1": {
+      "label": "Inside You",
+      "title": "The World Within",
+      "subtitle": "Your body is a universe unto itself",
+      "heartbeats": "Heartbeats",
+      "heartbeat": "Every beat pumps life",
+      "breaths": "Breaths",
+      "breath": "Each breath is a gift",
+      "blinks": "Blinks",
+      "blink": "Moments of rest",
+      "steps": "Steps",
+      "step": "Every journey begins",
+      "thoughts": "Thoughts",
+      "thought": "A lifetime of ideas",
+      "dreams": "Dreams",
+      "dream": "Nights of wonder"
+    },
+    "tier2": {
+      "label": "Your Orbit",
+      "title": "Journey Through Time",
+      "subtitle": "Your personal timeline against the cosmos",
+      "sunrises": "Sunrises",
+      "sunriseSub": "Dawns witnessed",
+      "fullMoons": "Full Moons",
+      "moonsSub": "Lunar cycles",
+      "seasons": "Seasons",
+      "seasonsSub": "Years turned",
+      "nights": "Nights",
+      "nightsSub": "Hours of rest",
+      "earthJourney": "Distance Earth Traveled Since Your Birth",
+      "earthSub": "{rounds} orbits around the Sun"
+    },
+    "tier3": {
+      "label": "Your Life",
+      "title": "Connected to Humanity",
+      "subtitle": "You are never alone in these numbers",
+      "populationAtBirth": "Population When You Were Born",
+      "newBorn": "Born Since",
+      "newBornNote": "New lives since your first breath",
+      "passedAway": "Passed Away",
+      "passedAwayNote": "Stories concluded since then",
+      "netGrowthNote": "net new souls on Earth",
+      "flightsInAir": "Flights in the Air",
+      "flightsSub": "rounds around Earth",
+      "emailsSent": "Emails Sent",
+      "emailsSub": "per day",
+      "searchesMade": "Searches Made",
+      "searchesSub": "per day",
+      "conversations": "Human Conversations",
+      "conversationsSub": "births + deaths = connections"
+    },
+    "tier4": {
+      "label": "Your Footprint",
+      "title": "Impact on the Planet",
+      "subtitle": "Every breath leaves a mark",
+      "co2": "Carbon Emissions",
+      "co2Sub": "equivalent to {cars} cars per year",
+      "co2Note": "Based on ~4.6 tonnes CO₂/year per car",
+      "oil": "Oil Consumed",
+      "oilSub": "Barrels of oil used",
+      "oilNote": "Fueling your world",
+      "water": "Fresh Water Used",
+      "waterSub": "Cubic meters of freshwater",
+      "waterNote": "A necessity, not a guarantee",
+      "forest": "Forest Area",
+      "forestSub": "Hectares of forest lost",
+      "forestNote": "Ancient forests vanishing",
+      "land": "Land Use",
+      "landSub": "Comparable to {cities} cities",
+      "landNote": "Based on ~2.59 km² per city block",
+      "seaLevel": "Sea Level Rise",
+      "seaLevelSub": "Millimeters of rise since birth",
+      "seaLevelNote": "Ocean warming and ice melt"
+    },
+    "closing": {
+      "main": "Each number is a thread connecting you to the pulse of humanity. You are not separate from these rhythms — you are part of them.",
+      "sub": "Since you were born {years} years ago, the world has never stopped changing."
+    }
+  },
+  "metrics": {
+    "liveLabel": "LIVE DATA",
+    "liveDesc": "All numbers update in real-time",
+    "population": {
+      "title": "Population Dynamics",
+      "todayBirths": "Today's Births",
+      "todayDeaths": "Today's Deaths",
+      "todayNet": "Today Net Growth",
+      "yearBirths": "Year Births",
+      "yearDeaths": "Year Deaths",
+      "yearNet": "Year Net Growth"
+    },
+    "resources": {
+      "title": "Energy & Resources",
+      "oil": "Oil Consumed",
+      "coal": "Coal Consumed",
+      "naturalGas": "Natural Gas",
+      "water": "Freshwater"
+    },
+    "environment": {
+      "title": "Environmental Impact",
+      "carbon": "CO₂ Emitted",
+      "deforestation": "Forest Lost"
+    },
+    "digital": {
+      "title": "Digital Activity",
+      "emails": "Emails Sent",
+      "searches": "Search Queries",
+      "flights": "Flights in Air",
+      "crypto": "Crypto Transactions"
+    }
+  },
+  "poster": {
+    "title": "Generate Your Universe Poster",
+    "templates": "Template",
+    "templateDark": "Dark",
+    "templateMinimal": "Minimal",
+    "templateNeon": "Neon",
+    "download": "Download Poster",
+    "downloaded": "✓ Downloaded!",
+    "share": "Share",
+    "summary": "Your Universe at a Glance",
+    "shareText": "I have been alive for {years} years. See what Earth experienced since I was born →",
+    "stats": {
+      "heartbeats": "Heartbeats",
+      "breaths": "Breaths",
+      "earthDistance": "Earth Distance",
+      "lifetimeBirths": "Births Since Birth",
+      "lifetimeDeaths": "Deaths Since Birth",
+      "lifetimeNet": "Net Population Growth",
+      "carbon": "CO₂ Emitted",
+      "oil": "Oil Consumed",
+      "water": "Water Used",
+      "deforestation": "Forest Lost",
+      "flights": "Flights Flown"
+    }
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "The page you are looking for does not exist.",
+    "back": "Go home"
+  }
+}

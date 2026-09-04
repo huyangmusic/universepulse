@@ -1,0 +1,593 @@
+{
+  "siteDescription": "UniversePulse est un tableau de bord mondial en temps réel. Suivez la croissance démographique et les émissions de CO₂ depuis votre naissance.",
+  "header": {
+    "title": "UniversePulse",
+    "subtitle": "Tableau de Données en Temps Réel Mondial",
+    "liveLabel": "EN DIRECT",
+    "utc": "UTC",
+    "nav": {
+      "born": "Nés Depuis",
+      "co2": "CO₂ Depuis",
+      "earth": "Distance Terre",
+      "sea": "Niveau de la Mer"
+    }
+  },
+  "dashboard": {
+    "intro": {
+      "title": "Quel est Votre Univers ?",
+      "desc1": "Chaque personne sur Terre a une relation unique avec ces chiffres.",
+      "desc2": "Entrez votre date de naissance pour voir à quoi ressemblait la Terre quand vous êtes arrivé — et combien de choses ont changé depuis.",
+      "cta": "Quand Êtes-vous Né ?"
+    },
+    "result": {
+      "label": "Votre Univers",
+      "change": "Changer",
+      "years": "ans"
+    },
+    "picker": {
+      "title": "Quand Êtes-vous Né ?",
+      "month": "Mois",
+      "day": "Jour",
+      "year": "Année",
+      "cancel": "Annuler"
+    },
+    "hero": {
+      "populationLabel": "Population Mondiale",
+      "populationSub": "Vivante. Respirante. Changeant chaque seconde.",
+      "populationDesc": "Le nombre ci-dessous compte en ce moment — et il compte depuis 1950.",
+      "ctaHint": "Entrez votre date de naissance pour découvrir votre univers personnel"
+    },
+    "sharing": {
+      "subtitle": "Partagez ce moment. Chaque nombre raconte une histoire.",
+      "tryAgain": "Essayer avec une autre date",
+      "share": "Partager",
+      "shareText": "J'ai été vivant pendant {years} ans. Voyez ce que la Terre a vécu depuis →",
+      "poster": "Générer une Affiche"
+    },
+    "months": [
+      "Janvier",
+      "Février",
+      "Mars",
+      "Avril",
+      "Mai",
+      "Juin",
+      "Juillet",
+      "Août",
+      "Septembre",
+      "Octobre",
+      "Novembre",
+      "Décembre"
+    ],
+    "back": "← Retour au Tableau de Bord",
+    "timeMachine": "Machine à Remonter le Temps"
+  },
+  "bornSince": {
+    "hero": {
+      "title": "Combien de gens sont nés depuis ma naissance ?",
+      "description": "Chaque seconde, environ 4.25 bébés naissent dans le monde. Depuis le moment où vous êtes arrivé, un nombre entier de civilisations de nouvelles vies a commencé."
+    },
+    "cta": {
+      "title": "Découvrez Votre Ligne Temporelle de Naissance",
+      "description": "Entrez votre date de naissance pour voir combien de personnes sont nées pendant votre vie, combien sont décédées, et comment le monde a changé autour de vous.",
+      "button": "Commencer Votre Voyage"
+    },
+    "stats": {
+      "title": "Statistiques Mondiales de Naissance : Une Histoire Vivante",
+      "speed": {
+        "title": "La Vitesse de la Naissance Humaine",
+        "description": "Selon le Département des Affaires Économiques et Sociales de l'ONU (UN DESA), environ 140 millions de bébés naissent chaque année dans le monde. Cela se traduit par environ 4.25 naissances par seconde, 255 par minute et 15 300 par heure. La population mondiale est passée d'environ 2.5 milliards en 1950 à plus de 8.35 milliards en 2026."
+      },
+      "growth": {
+        "title": "Tendances de Croissance Démographique",
+        "description": "Le pic de croissance de la population mondiale s'est produit dans les années 1960, à près de 2.1% par an. Le taux de croissance actuel a ralenti à environ 0.9% par an, avec des projections suggérant que la population mondiale atteindra son pic autour de 10.4 milliards dans les années 2080."
+      }
+    },
+    "personal": {
+      "title": "Votre Lien Personnel avec la Population Mondiale",
+      "description": "Lorsque vous entrez votre date de naissance sur UniversePulse, vous découvrirez le nombre de personnes qui sont nées pendant votre vie — un nombre qui place votre existence dans un contexte mondial fascinant. Pour la plupart des gens, ce nombre se situe entre 1 et 5 milliards."
+    },
+    "faq": {
+      "title": "Questions Fréquentes",
+      "items": [
+        {
+          "q": "Combien de personnes naissent chaque jour ?",
+          "a": "Environ 380 000 personnes naissent chaque jour dans le monde, selon les estimations de l'ONU."
+        },
+        {
+          "q": "Quand la population mondiale a-t-elle atteint 8 milliards ?",
+          "a": "L'Organisation des Nations Unies a déclaré que la population mondiale avait atteint 8 milliards le 15 novembre 2022."
+        },
+        {
+          "q": "Quelle est la population mondiale en 2026 ?",
+          "a": "En 2026, la population mondiale est estimée à environ 8.35 milliards de personnes."
+        },
+        {
+          "q": "Comment UniversePulse calcule-t-il les naissances ?",
+          "a": "UniversePulse utilise un modèle mathématique simple mais précis basé sur des données autorisées de l'UN DESA, de la Banque Mondiale et d'autres sources démographiques."
+        }
+      ]
+    },
+    "explore": {
+      "title": "Explorez Plus sur UniversePulse",
+      "co2": {
+        "title": "Émissions de CO₂ Depuis Ma Naissance",
+        "desc": "Suivez l'empreinte carbone accumulée depuis votre naissance et comparez-la aux objectifs mondiaux."
+      },
+      "earth": {
+        "title": "Distance de la Terre Depuis Ma Naissance",
+        "desc": "Découvrez à quelle distance notre planète a voyagé à travers le cosmos depuis votre naissance."
+      },
+      "sea": {
+        "title": "Montée du Niveau de la Mer Depuis Ma Naissance",
+        "desc": "Voyez combien le niveau de la mer a monté pendant votre vie et ce que cela signifie pour l'avenir."
+      }
+    }
+  },
+  "co2Since": {
+    "hero": {
+      "title": "Combien de CO₂ ai-je émis depuis ma naissance ?",
+      "description": "Chaque seconde, l'humanité rejette du dioxyde de carbone dans l'atmosphère à un rythme alarmant. Voyez le total des émissions de CO₂ qui ont eu lieu depuis le jour de votre naissance."
+    },
+    "cta": {
+      "title": "Calculez Votre Empreinte Carbone Vitalice",
+      "description": "Entrez votre date de naissance pour découvrir le total des émissions de CO₂ qui se sont accumulées pendant votre vie — un nombre qui place votre existence dans un contexte planétaire.",
+      "button": "Commencer Votre Voyage"
+    },
+    "stats": {
+      "title": "Faits sur les Émissions Mondiales de CO₂",
+      "emissions": {
+        "title": "L'Échelle des Émissions Globales",
+        "description": "Les émissions annuelles mondiales de CO₂ des combustibles fossiles ont dépassé 36 milliards de tonnes ces dernières années. Cela représente environ 4.7 tonnes par personne par an en moyenne, bien que les émissions varient considérablement entre pays développés et en développement."
+      },
+      "targets": {
+        "title": "Objectifs Climatiques et Réalité",
+        "description": "Pour limiter le réchauffement climatique à 1.5°C au-dessus des niveaux préindustriels, le budget carbone restant est estimé à environ 250 gigatonnes de CO₂ — environ 6 années d'émissions actuelles. L'Accord de Paris a engagé les nations à réduire drastiquement les émissions d'ici 2030."
+      }
+    },
+    "faq": {
+      "title": "Questions Fréquentes",
+      "items": [
+        {
+          "q": "Quelle est la principale source d'émissions de CO₂ ?",
+          "a": "La combustion des combustibles fossiles (charbon, pétrole et gaz naturel) pour l'énergie, le transport et l'industrie représente la grande majorité des émissions mondiales de CO₂."
+        },
+        {
+          "q": "Combien de CO₂ émet une personne en moyenne ?",
+          "a": "L'émission moyenne par habitant de CO₂ dans le monde est d'environ 4.7 tonnes par an, bien que cela varie de moins de 1 tonne dans certains pays en développement à plus de 15 tonnes dans les pays les plus développés."
+        },
+        {
+          "q": "Quel est le budget carbone pour 1.5°C ?",
+          "a": "Le budget carbone restant pour maintenir le réchauffement en dessous de 1.5°C est estimé à environ 250 gigatonnes de CO₂ — environ 6 ans aux taux d'émission actuels."
+        },
+        {
+          "q": "Comment UniversePulse calcule-t-il le CO₂ ?",
+          "a": "UniversePulse utilise un modèle mathématique basé sur des données autorisées de l'Agence Internationale de l'Énergie (AIE) et du Projet Global du Carbone, appliquant le taux actuel d'émissions mondiales depuis votre date de naissance."
+        }
+      ]
+    },
+    "explore": {
+      "title": "Explorez Plus sur UniversePulse",
+      "born": {
+        "title": "Personnes Nées Depuis Ma Naissance",
+        "desc": "Découvrez combien de personnes sont nées pendant votre vie."
+      },
+      "earth": {
+        "title": "Distance de la Terre Depuis Ma Naissance",
+        "desc": "Voyez à quelle distance notre planète a voyagé à travers l'espace depuis votre naissance."
+      },
+      "sea": {
+        "title": "Montée du Niveau de la Mer Depuis Ma Naissance",
+        "desc": "Suivez combien le niveau de la mer a monté pendant votre vie."
+      }
+    }
+  },
+  "earthDistance": {
+    "hero": {
+      "title": "À quelle distance la Terre a-t-elle voyagé depuis ma naissance ?",
+      "description": "Notre planète est en mouvement constant — en orbite autour du Soleil à 107 000 km/h, tandis que tout le système solaire voyage à travers la Voie Lactée à 828 000 km/h. Voyez la distance cosmique incroyable parcourue depuis votre naissance."
+    },
+    "cta": {
+      "title": "Calculez Votre Voyage Cosmique",
+      "description": "Entrez votre date de naissance pour découvrir la distance totale que la Terre a parcourue à travers l'espace pendant votre vie — un nombre qui place votre existence dans une perspective cosmique.",
+      "button": "Commencer Votre Voyage"
+    },
+    "cosmos": {
+      "title": "Le Voyage Cosmique de la Terre",
+      "description": "La Terre orbite autour du Soleil à une vitesse moyenne de 107 000 km/h, complétant une orbite tous les 365.25 jours. Pendant ce temps, tout notre système solaire voyage autour du centre de la galaxie Voie Lactée à environ 828 000 km/h. Depuis votre naissance, la Terre a parcouru une distance presque incompréhensible."
+    },
+    "faq": {
+      "title": "Questions Fréquentes",
+      "items": [
+        {
+          "q": "À quelle vitesse la Terre orbite-t-elle autour du Soleil ?",
+          "a": "La Terre se déplace à environ 107 000 km/h (67 000 mph) en orbite autour du Soleil."
+        },
+        {
+          "q": "À quelle distance la Terre voyage-t-elle en un an ?",
+          "a": "La Terre parcourt environ 940 milliards de kilomètres (584 milliards de miles) en une orbite complète autour du Soleil."
+        },
+        {
+          "q": "La vitesse de la Terre est-elle constante ?",
+          "a": "La vitesse orbitale de la Terre varie légèrement tout au long de l'année en raison de la forme elliptique de son orbite — plus rapide au périhélie (plus proche du Soleil) et plus lente à l'aphélie (plus éloigné du Soleil)."
+        },
+        {
+          "q": "Comment UniversePulse calcule-t-il cela ?",
+          "a": "UniversePulse utilise un modèle mathématique précis basé sur les paramètres orbitaux de la Terre de la NASA, calculant la distance totale parcourue depuis votre date de naissance."
+        }
+      ]
+    },
+    "explore": {
+      "title": "Explorez plus sur UniversePulse",
+      "born": {
+        "title": "Nés Depuis Ma Naissance",
+        "desc": "Découvrez combien de personnes sont nées pendant votre vie."
+      },
+      "co2": {
+        "title": "CO₂ Depuis Ma Naissance",
+        "desc": "Suivez l'empreinte carbone accumulée depuis votre naissance."
+      },
+      "sea": {
+        "title": "Montée du Niveau de la Mer Depuis Ma Naissance",
+        "desc": "Suivez la hausse du niveau de la mer pendant votre vie."
+      }
+    }
+  },
+  "seaLevel": {
+    "hero": {
+      "title": "Combien le niveau de la mer a-t-il monté depuis ma naissance ?",
+      "description": "Les niveaux de la mer mondiaux ont augmenté de manière constante en raison de l'expansion thermique des océans qui se réchauffent et de la fonte des calottes glaciaires. Voyez combien les mers ont monté pendant votre vie."
+    },
+    "cta": {
+      "title": "Suivez Votre Montée du Niveau de la Mer Vitalice",
+      "description": "Entrez votre date de naissance pour découvrir combien le niveau de la mer a monté depuis votre naissance — une mesure du réchauffement que votre vie a accompagné.",
+      "button": "Commencer Votre Voyage"
+    },
+    "science": {
+      "title": "La Science de la Montée du Niveau de la Mer",
+      "causes": {
+        "title": "Causes de la Montée du Niveau de la Mer",
+        "description": "La montée du niveau de la mer est principalement entraînée par l'expansion thermique de l'eau océanique et la fonte de la glace terrestre (glaciers et calottes glaciaires). Depuis 1993, le niveau de la mer mondial a augmenté à un rythme accéléré d'environ 3.6 mm par an."
+      },
+      "projections": {
+        "title": "Projections Futures",
+        "description": "Le GIEC projette que les niveaux de la mer pourraient augmenter de 0.3 à 1.1 mètre d'ici 2100, selon les scénarios d'émissions. Même les scénarios les plus optimistes impliquent une augmentation continue pendant des siècles en raison de l'inertie thermique des océans."
+      }
+    },
+    "faq": {
+      "title": "Questions Fréquentes",
+      "items": [
+        {
+          "q": "Combien le niveau de la mer a-t-il monté depuis 1900 ?",
+          "a": "Le niveau moyen de la mer mondial a augmenté d'environ 21 à 24 cm depuis 1900, avec un rythme accéléré au cours des décennies récentes."
+        },
+        {
+          "q": "Quel est le taux actuel de montée du niveau de la mer ?",
+          "a": "Le taux actuel est d'environ 3.6 mm par an, et il accélère. Dans certaines régions, le taux est encore plus élevé en raison de facteurs locaux."
+        },
+        {
+          "q": "Comment la montée du niveau de la mer affecte-t-elle les villes côtières ?",
+          "a": "L'élévation des mers menace les communautés côtières par des inondations accrues, l'intensité accrue des tempêtes, l'intrusion d'eau salée dans l'eau douce et l'érosion des côtes. Plus d'un milliard de personnes vivent dans des zones côtières de basse altitude."
+        },
+        {
+          "q": "Comment UniversePulse calcule-t-il la montée du niveau de la mer ?",
+          "a": "UniversePulse utilise un modèle mathématique basé sur les données du GIEC et les observations satellitaires, estimant la montée cumulée du niveau de la mer depuis votre date de naissance."
+        }
+      ]
+    },
+    "explore": {
+      "title": "Explorez plus sur UniversePulse",
+      "born": {
+        "title": "Nés Depuis Ma Naissance",
+        "desc": "Découvrez combien de personnes sont nées pendant votre vie."
+      },
+      "co2": {
+        "title": "CO₂ Depuis Ma Naissance",
+        "desc": "Suivez l'empreinte carbone accumulée depuis votre naissance."
+      },
+      "earth": {
+        "title": "Distance de la Terre Depuis Ma Naissance",
+        "desc": "Découvrez la distance parcourue par notre planète depuis votre naissance."
+      }
+    }
+  },
+  "livingMoment": {
+    "title": "La Terre Ne Dort Jamais",
+    "subtitle": "Regardez le monde changer en temps réel. Chaque seconde, il y a une naissance — et aussi une fin.",
+    "milestone": {
+      "title": "Prochain Jalon Démographique",
+      "peopleAway": "personnes restantes",
+      "daysToBillion": "jours pour atteindre le prochain milliard"
+    },
+    "stats": {
+      "population": "Population Mondiale",
+      "births": "Naissances Aujourd'hui",
+      "deaths": "Décès Aujourd'hui",
+      "netGrowth": "Croissance Nette Aujourd'hui"
+    },
+    "moments": {
+      "birth": {
+        "title": "Nouvelle Vie",
+        "subtitle": "Toutes les 0,24 seconde",
+        "comparison": "Une nouvelle vie commence — quelqu'un grandira pour changer le monde"
+      },
+      "death": {
+        "title": "Fin d'une Vie",
+        "subtitle": "Toutes les 0,51 seconde",
+        "comparison": "Une histoire se termine — quelqu'un pense à eux aujourd'hui"
+      },
+      "net": {
+        "title": "Croissance Nette",
+        "subtitle": "Chaque seconde la Terre gagne",
+        "comparison": "La Terre gagne un nouveau-né chaque seconde"
+      },
+      "oil": {
+        "title": "Pétrole Consommé",
+        "subtitle": "Par seconde",
+        "comparison": "camions-citernes qui déchargent par minute"
+      },
+      "carbon": {
+        "title": "Émissions de CO₂",
+        "subtitle": "Par seconde",
+        "comparison": "parking complet d'émissions en ce moment"
+      },
+      "water": {
+        "title": "Eau Douce Utilisée",
+        "subtitle": "Par seconde",
+        "comparison": "piscines olympiques chaque seconde"
+      },
+      "email": {
+        "title": "Emails Envoyés",
+        "subtitle": "Par seconde",
+        "comparison": "Un message d'amour, de colère ou d'ennui — la conversation infinie de l'humanité"
+      },
+      "search": {
+        "title": "Recherches",
+        "subtitle": "Par seconde",
+        "comparison": "Chaque seconde, quelqu'un cherche comment pour la troisième fois aujourd'hui"
+      },
+      "flight": {
+        "title": "Vols en l'Air",
+        "subtitle": "À tout moment",
+        "comparison": "personnes dans les airs en ce moment — tous regardant la même Terre"
+      },
+      "crypto": {
+        "title": "Transactions Crypto",
+        "subtitle": "Par seconde",
+        "comparison": "De la valeur qui circule entre étrangers — de la confiance écrite en code"
+      },
+      "deforestation": {
+        "title": "Forêt Perdue",
+        "subtitle": "Par seconde",
+        "comparison": "Un terrain de football de forêt ancienne — disparaît en un clin d'œil"
+      }
+    },
+    "session": {
+      "title": "Pendant Votre Visite",
+      "visited": "Vous étiez ici",
+      "popGrowth": "personnes ajoutées à la Terre",
+      "births": "naissances",
+      "oil": "barriques de pétrole",
+      "barrels": "bar",
+      "emails": "emails envoyés",
+      "carbon": "tonnes CO₂",
+      "tonnes": "t",
+      "flights": "vols en l'air"
+    }
+  },
+  "dataSources": {
+    "disclaimer": "Toutes les données sont estimées à partir de sources annuelles autorisées et converties en taux par seconde. Les valeurs sont des approximations à des fins éducatives — ce ne sont pas des mesures précises. Les données sont basées sur les sources mondiales UN DESA, IEA, BP, FAO et d'autres de 2026.",
+    "expand": "Voir toutes les sources de données",
+    "collapse": "Masquer les sources de données",
+    "footer": "Avertissement de précision des données : UniversePulse utilise des taux moyens annuels dérivés de l'ONU, IEA, BP, FAO et d'autres organisations internationales. Les valeurs en temps réel sont des approximations mathématiques.",
+    "sourceNames": {
+      "Global Population": "Population Mondiale",
+      "Oil Consumption": "Consommation de Pétrole",
+      "Coal Consumption": "Consommation de Charbon",
+      "CO₂ Emissions": "Émissions de CO₂",
+      "Natural Gas": "Gaz Naturel",
+      "Deforestation": "Déforestation",
+      "Freshwater": "Eau Douce",
+      "Email Volume": "Volume d'Emails",
+      "Search Queries": "Recherches",
+      "Flights": "Vols",
+      "Crypto Transactions": "Transactions Crypto",
+      "Sea Level Rise": "Montée du Niveau de la Mer"
+    },
+    "tier1": "Niveau 1",
+    "tier2": "Niveau 2",
+    "tier3": "Niveau 3"
+  },
+  "timeMachine": {
+    "title": "Machine à Remonter le Temps",
+    "subtitle": "Voyagez à n'importe quelle année et découvrez à quoi ressemblait la Terre — et ce que cela signifiait pour le monde.",
+    "label": "An",
+    "play": "Lire",
+    "pause": "Pause",
+    "speed": "Vitesse",
+    "events": {
+      "1960": "La population mondiale atteint 3 milliards",
+      "1968": "Paul Ehrlich publie « La Bombe humaine »",
+      "1974": "La population mondiale atteint 4 milliards",
+      "1980": "Les émissions mondiales de CO₂ commencent à augmenter régulièrement",
+      "1987": "La population mondiale atteint 5 milliards — Jour des 5 milliards",
+      "1990": "Première conférence climatique internationale (CCNUCC)",
+      "1993": "Début des mesures satellitaires de l'élévation du niveau de la mer",
+      "1999": "La population mondiale atteint 6 milliards",
+      "2000": "Le passage à l'an 2000 se fait sans catastrophe mondiale",
+      "2003": "Les internautes dépassent les 600 millions",
+      "2005": "Le protocole de Kyoto entre en vigueur",
+      "2008": "Crise financière mondiale",
+      "2011": "La population mondiale atteint 7 milliards",
+      "2012": "Les ventes de smartphones dépassent celles des ordinateurs",
+      "2015": "Accord de Paris signé — 196 nations s'engagent pour l'action climatique",
+      "2016": "L'année la plus chaude enregistrée à ce jour",
+      "2019": "Les grèves climatiques mondiales mobilisent des millions de personnes",
+      "2022": "La population mondiale atteint 8 milliards — déclaration de l'ONU",
+      "2024": "El Niño provoque des températures mondiales record",
+      "2050": "Projection : population mondiale ~9,7 milliards"
+    },
+    "slider": "Glissez pour voyager dans le temps",
+    "comparison": "Cumul depuis 1950",
+    "population": "Population",
+    "births": "Naissances",
+    "deaths": "Décès",
+    "carbon": "Carbone",
+    "oil": "Pétrole",
+    "water": "Eau",
+    "deforestation": "Déforestation",
+    "seaLevel": "Niveau de la Mer",
+    "popGrowth": "Croissance Populatoire",
+    "totalCO2": "Émissions Totales de CO₂",
+    "totalOil": "Pétrole Consommé Total",
+    "emails": "Emails",
+    "searches": "Recherches",
+    "flights": "Vols"
+  },
+  "narrative": {
+    "hero": {
+      "label": "Votre Univers Personnel",
+      "title": "Quel était votre univers ?",
+      "desc": "Vous êtes en vie depuis {years} ans, {days} jours et {hours} heures. C'est une vie entière de nombres — chacun connecté au pouls de 8 milliards d'âmes."
+    },
+    "tier1": {
+      "label": "En Vous",
+      "title": "Le Monde Intérieur",
+      "subtitle": "Votre corps est un univers en soi",
+      "heartbeats": "Battements de cœur",
+      "heartbeat": "Chaque battement pompe la vie",
+      "breaths": "Respirations",
+      "breath": "Chaque respiration est un cadeau",
+      "blinks": "Clignements",
+      "blink": "Moments de repos",
+      "steps": "Pas",
+      "step": "Chaque voyage commence ici",
+      "thoughts": "Pensées",
+      "thought": "Une vie d'idées",
+      "dreams": "Rêves",
+      "dream": "Nuits d'émerveillement"
+    },
+    "tier2": {
+      "label": "Votre Orbite",
+      "title": "Voyage à Travers le Temps",
+      "subtitle": "Votre chronologie personnelle face au cosmos",
+      "sunrises": "Levers de soleil",
+      "sunriseSub": "Aubes observées",
+      "fullMoons": "Lunes pleines",
+      "moonsSub": "Cycles lunaires",
+      "seasons": "Saisons",
+      "seasonsSub": "Années passées",
+      "nights": "Nuits",
+      "nightsSub": "Heures de repos",
+      "earthJourney": "Distance parcourue par la Terre depuis votre naissance",
+      "earthSub": "{rounds} orbites autour du Soleil"
+    },
+    "tier3": {
+      "label": "Votre Vie",
+      "title": "Connecté à l'Humanité",
+      "subtitle": "Vous n'êtes jamais seul dans ces chiffres",
+      "populationAtBirth": "Population à votre naissance",
+      "newBorn": "Nés Depuis",
+      "newBornNote": "Nouvelles vies depuis votre premier souffle",
+      "passedAway": "Décédés",
+      "passedAwayNote": "Histoires conclues depuis lors",
+      "netGrowthNote": "âmes nettes nouvelles sur Terre",
+      "flightsInAir": "Vols en l'Air",
+      "flightsSub": "circonvolutions autour de la Terre",
+      "emailsSent": "Emails Envoyés",
+      "emailsSub": "par jour",
+      "searchesMade": "Recherches Effectuées",
+      "searchesSub": "par jour",
+      "conversations": "Conversations Humaines",
+      "conversationsSub": "naissances + décès = connexions"
+    },
+    "tier4": {
+      "label": "Votre Empreinte",
+      "title": "Impact sur la Planète",
+      "subtitle": "Chaque respiration laisse une marque",
+      "co2": "Émissions de Carbone",
+      "co2Sub": "équivalent à {cars} voitures par an",
+      "co2Note": "Basé sur ~4,6 tonnes de CO₂/an par voiture",
+      "oil": "Pétrole Consommé",
+      "oilSub": "Barriques de pétrole utilisées",
+      "oilNote": "Alimentant votre monde",
+      "water": "Eau Douce Utilisée",
+      "waterSub": "Mètres cubes d'eau douce",
+      "waterNote": "Une nécessité, pas une garantie",
+      "forest": "Surface Forestière",
+      "forestSub": "Hectares de forêt perdus",
+      "forestNote": "Forêts anciennes qui disparaissent",
+      "land": "Utilisation des Terres",
+      "landSub": "Comparable à {cities} villes",
+      "landNote": "Basé sur ~2,59 km² par îlot urbain",
+      "seaLevel": "Élévation du Niveau de la Mer",
+      "seaLevelSub": "Millimètres d'élévation depuis la naissance",
+      "seaLevelNote": "Réchauffement océanique et fonte des glaces"
+    },
+    "closing": {
+      "main": "Chaque nombre est un fil vous reliant au pouls de l'humanité. Vous n'êtes pas séparé de ces rythmes — vous en faites partie.",
+      "sub": "Depuis que vous êtes né il y a {years} ans, le monde n'a jamais cessé de changer."
+    }
+  },
+  "metrics": {
+    "liveLabel": "DONNÉES EN DIRECT",
+    "liveDesc": "Tous les chiffres se mettent à jour en temps réel",
+    "population": {
+      "title": "Dynamique Démographique",
+      "todayBirths": "Naissances Aujourd'hui",
+      "todayDeaths": "Décès Aujourd'hui",
+      "todayNet": "Croissance Nette Aujourd'hui",
+      "yearBirths": "Naissances de l'Année",
+      "yearDeaths": "Décès de l'Année",
+      "yearNet": "Croissance Nette de l'Année"
+    },
+    "resources": {
+      "title": "Énergie et Ressources",
+      "oil": "Pétrole Consommé",
+      "coal": "Charbon Consommé",
+      "naturalGas": "Gaz Naturel",
+      "water": "Eau Douce"
+    },
+    "environment": {
+      "title": "Impact Environnemental",
+      "carbon": "CO₂ Émis",
+      "deforestation": "Forêt Perdue"
+    },
+    "digital": {
+      "title": "Activité Numérique",
+      "emails": "Emails Envoyés",
+      "searches": "Recherches",
+      "flights": "Vols en l'Air",
+      "crypto": "Transactions Crypto"
+    }
+  },
+  "poster": {
+    "title": "Générez Votre Affiche de l'Univers",
+    "templates": "Modèle",
+    "templateDark": "Sombre",
+    "templateMinimal": "Minimal",
+    "templateNeon": "Néon",
+    "download": "Télécharger l'Affiche",
+    "downloaded": "✓ Téléchargé !",
+    "share": "Partager",
+    "summary": "Votre Univers en Un Coup d'Œil",
+    "shareText": "J'ai été vivant pendant {years} ans. Voyez ce que la Terre a vécu depuis →",
+    "stats": {
+      "heartbeats": "Battements de Cœur",
+      "breaths": "Respirations",
+      "earthDistance": "Distance de la Terre",
+      "lifetimeBirths": "Naissances Depuis Ma Naissance",
+      "lifetimeDeaths": "Décès Depuis Ma Naissance",
+      "lifetimeNet": "Croissance Démographique Nette",
+      "carbon": "CO₂ Émis",
+      "oil": "Pétrole Consommé",
+      "water": "Eau Utilisée",
+      "deforestation": "Forêt Perdue",
+      "flights": "Vols Effectués"
+    }
+  },
+  "notFound": {
+    "title": "Page non trouvée",
+    "description": "La page que vous recherchez n'existe pas.",
+    "back": "Retour à l'accueil"
+  }
+}
