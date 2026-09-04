@@ -3,6 +3,8 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslations } from 'next-intl';
+import { useLocale } from 'next-intl';
+import Link from 'next/link';
 
 const DATA_SOURCES = [
   { tier: 1, label: 'Tier 1', name: 'Global Population', source: 'UN DESA', year: 'WPP 2024', url: 'https://population.un.org/wpp/' },
@@ -21,7 +23,9 @@ const DATA_SOURCES = [
 
 export default function DataSources() {
   const t = useTranslations('dataSources');
+  const locale = useLocale();
   const [expanded, setExpanded] = useState(false);
+  const legalBase = locale === 'en' ? '' : `/${locale}`;
 
   const tierColors: Record<number, string> = {
     1: 'text-accent-green',
@@ -99,6 +103,25 @@ export default function DataSources() {
       <p className="text-center text-[10px] text-text-muted/50 mt-6">
         {t('footer')}
       </p>
+
+      {/* Legal links */}
+      <div className="flex items-center justify-center gap-4 mt-6 text-[10px] text-text-muted/40">
+        <Link href={`${legalBase}/privacy-policy`} className="hover:text-text-secondary transition-colors">
+          Privacy Policy
+        </Link>
+        <span className="text-white/10">·</span>
+        <Link href={`${legalBase}/terms-of-service`} className="hover:text-text-secondary transition-colors">
+          Terms of Service
+        </Link>
+        <span className="text-white/10">·</span>
+        <Link href={`${legalBase}/about`} className="hover:text-text-secondary transition-colors">
+          About
+        </Link>
+        <span className="text-white/10">·</span>
+        <Link href={`${legalBase}/contact`} className="hover:text-text-secondary transition-colors">
+          Contact
+        </Link>
+      </div>
     </footer>
   );
 }
