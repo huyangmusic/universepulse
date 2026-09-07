@@ -123,11 +123,24 @@ export default async function RootLayout({ children }: { children: React.ReactNo
                   url: BASE,
                   keywords:
                     'global population, real-time data, CO2 emissions, climate change, resource consumption, world statistics',
-                  citation: {
-                    '@type': 'WebSite',
+                  creator: {
+                    '@type': 'Organization',
                     name: 'UniversePulse',
                     url: BASE,
                   },
+                  citation: {
+                    '@type': 'WebPage',
+                    name: 'UniversePulse Data Sources',
+                    url: `${BASE}/#data-sources`,
+                  },
+                  license: 'https://creativecommons.org/licenses/by/4.0/',
+                  sourceOrganization: [
+                    { '@type': 'Organization', name: 'UN DESA' },
+                    { '@type': 'Organization', name: 'IEA' },
+                    { '@type': 'Organization', name: 'BP' },
+                    { '@type': 'Organization', name: 'FAO' },
+                    { '@type': 'Organization', name: 'Global Carbon Project' },
+                  ],
                 },
                 {
                   '@type': 'WebSite',
